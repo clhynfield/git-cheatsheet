@@ -64,3 +64,21 @@ $ git commit --amend
 
 * Tips for good commit messages: https://chris.beams.io/posts/git-commit/
 
+## Branching
+
+```bash
+# create a new branch
+$ git branch [new branch name] [from branch]
+
+# switch branches
+$ git checkout <branch name>
+
+# create and switch combined
+$ git checkout -b [new branch name] [from branch]
+```
+
+## Merging
+
+```bash
+$ git merge <branch>
+```
