@@ -41,3 +41,26 @@ $ git reset --hard
 # restore a specific file to its original state
 $ git checkout -- README.md
 ```
+
+## Staging
+
+```bash
+# add everything to staging
+$ git add .
+
+# add any files matching a wildcard
+$ git add *.java
+```
+
+## Committing
+
+```bash
+# commit currently staged files
+$ git commit -m "<commit message>"
+
+# fix the last commit message
+$ git commit --amend
+```
+
+* Tips for good commit messages: https://chris.beams.io/posts/git-commit/
+
