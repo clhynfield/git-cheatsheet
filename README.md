@@ -80,5 +80,21 @@ $ git checkout -b [new branch name] [from branch]
 ## Merging
 
 ```bash
-$ git merge <branch>
+# merge from branch into the current branch
+$ git merge <from branch>
+
+# explicit merge to/from branches
+$ git merge <to branch> <from branch>
 ```
+
+## Rebasing
+
+
+## Workflow(s)
+
+* http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
+
+
+## Useful Tools
+
+* Git Duet (for pairing) - https://github.com/git-duet/git-duet
