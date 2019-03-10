@@ -28,7 +28,7 @@ $ git clone git@github.com:ssherwood/git-cheatsheet
 # push uncommitted changes to "stash" stack
 $ git stash
 
-# restores from the top of the "stash" stack 
+# restore the top of the "stash" stack 
 $ git stash pop
 ```
 
@@ -37,4 +37,7 @@ $ git stash pop
 ```bash
 # abort current uncomitted changes
 $ git reset --hard
+
+# restore a specific file to its original state
+$ git checkout -- README.md
 ```
