@@ -18,23 +18,23 @@ https://github.com/github/gitignore
 ## Clone an existing project
 
 ```bash
-# Use ssh
+# using ssh protocol
 $ git clone git@github.com:ssherwood/git-cheatsheet
 ```
 
 ## Stashing changes
 
 ```bash
-# Push all uncommitted changes to "stash" stack
+# push uncommitted changes to "stash" stack
 $ git stash
 
-# Restores the top of the "stash" stack 
+# restores from the top of the "stash" stack 
 $ git stash pop
 ```
 
 ## Reset 
 
 ```bash
-# Abort the current uncomitted changes
+# abort current uncomitted changes
 $ git reset --hard
 ```
