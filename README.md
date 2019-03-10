@@ -7,10 +7,10 @@ Helpful tips for using git.
 ```bash
 $ git init
 $ git add .
-$ git commit -m 'The first commit'
+$ git commit -m 'Initial commit'
 ```
 
-## Set up a .gitignore
+## Add a .gitignore
 
 https://github.com/github/gitignore
 
@@ -18,13 +18,23 @@ https://github.com/github/gitignore
 ## Clone an existing project
 
 ```bash
+# Use ssh
 $ git clone git@github.com:ssherwood/git-cheatsheet
 ```
 
-## Stashing
+## Stashing changes
 
 ```bash
+# Push all uncommitted changes to "stash" stack
 $ git stash
-# Restore stashed changes 
+
+# Restores the top of the "stash" stack 
 $ git stash pop
+```
+
+## Reset 
+
+```bash
+# Abort the current uncomitted changes
+$ git reset --hard
 ```
