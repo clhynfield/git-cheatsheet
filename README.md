@@ -97,4 +97,5 @@ $ git merge <to branch> <from branch>
 
 ## Useful Tools
 
+* Git Author (for pair/mob commits) - https://github.com/pivotal/git-author
 * Git Duet (for pairing) - https://github.com/git-duet/git-duet
